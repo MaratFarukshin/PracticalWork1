@@ -1,0 +1,63 @@
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.deps.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.AssemblyReference.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfoInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfo.cs
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.sourcelink.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\Practica.F39FF3CD.Up2Date
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\refint\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\ref\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.runtimeconfig.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.runtimeconfig.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\Practica.F39FF3CD.Up2Date
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\refint\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\ref\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.runtimeconfig.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\Practica.F39FF3CD.Up2Date
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\refint\PracticalWork.Library.MessageBroker.RabbitMQ.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\PracticalWork.Library.MessageBroker.RabbitMQ.genruntimeconfig.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.MessageBroker.RabbitMQ\obj\Debug\net8.0\ref\PracticalWork.Library.MessageBroker.RabbitMQ.dll

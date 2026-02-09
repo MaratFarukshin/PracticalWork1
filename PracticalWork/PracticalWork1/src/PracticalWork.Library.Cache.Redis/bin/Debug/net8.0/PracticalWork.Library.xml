@@ -1,0 +1,1008 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library</name>
+    </assembly>
+    <members>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IBookService.CreateBook(PracticalWork.Library.Models.Book)">
+            <summary>
+            Создание книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IBookService.UpdateBookAsync(System.Guid,PracticalWork.Library.Models.Book)">
+            <summary>
+            Обновление книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IBookService.ArchiveBookAsync(System.Guid)">
+            <summary>
+            Перевод книги в архив
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IBookService.GetBooksAsync(System.Nullable{PracticalWork.Library.Enums.BookStatus},System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Получить список книг с фильтрацией и пагинацией
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IBookService.AddBookDetailsAsync(System.Guid,System.String,System.IO.Stream,System.String,System.String)">
+            <summary>
+            Добавить детали книги (описание и обложку)
+            </summary>
+            <returns>Путь к загруженной обложке</returns>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.ICacheService">
+            <summary>
+            Сервис для работы с кэшем
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ICacheService.GetAsync``1(System.String)">
+            <summary>
+            Получить значение из кэша
+            </summary>
+            <typeparam name="T">Тип значения</typeparam>
+            <param name="key">Ключ кэша</param>
+            <returns>Значение из кэша или null, если не найдено</returns>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ICacheService.SetAsync``1(System.String,``0,System.TimeSpan)">
+            <summary>
+            Сохранить значение в кэш
+            </summary>
+            <typeparam name="T">Тип значения</typeparam>
+            <param name="key">Ключ кэша</param>
+            <param name="value">Значение для сохранения</param>
+            <param name="expiration">Время жизни кэша</param>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ICacheService.InvalidateAsync(System.String)">
+            <summary>
+            Инвалидировать кэш по ключу
+            </summary>
+            <param name="key">Ключ кэша</param>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ICacheService.InvalidateByPatternAsync(System.String)">
+            <summary>
+            Инвалидировать кэш по паттерну ключа
+            </summary>
+            <param name="pattern">Паттерн ключа кэша</param>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.IFileStorageService">
+            <summary>
+            Сервис для работы с файловым хранилищем
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IFileStorageService.UploadFileAsync(System.String,System.String,System.IO.Stream,System.String)">
+            <summary>
+            Загрузить файл в хранилище
+            </summary>
+            <param name="bucketName">Имя bucket</param>
+            <param name="objectName">Имя объекта (путь к файлу)</param>
+            <param name="fileStream">Поток файла</param>
+            <param name="contentType">MIME-тип файла</param>
+            <returns>Путь к загруженному файлу</returns>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IFileStorageService.DeleteFileAsync(System.String,System.String)">
+            <summary>
+            Удалить файл из хранилища
+            </summary>
+            <param name="bucketName">Имя bucket</param>
+            <param name="objectName">Имя объекта (путь к файлу)</param>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IFileStorageService.GetFileUrl(System.String)">
+            <summary>
+            Получить URL для доступа к файлу
+            </summary>
+            <param name="filePath">Путь к файлу (возвращается из UploadFileAsync)</param>
+            <returns>URL для доступа к файлу</returns>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.IFileValidationService">
+            <summary>
+            Сервис для валидации файлов
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IFileValidationService.ValidateCoverImage(System.IO.Stream,System.String,System.String,System.Int64)">
+            <summary>
+            Валидировать файл обложки
+            </summary>
+            <param name="fileStream">Поток файла</param>
+            <param name="fileName">Имя файла</param>
+            <param name="contentType">MIME-тип файла</param>
+            <param name="maxSizeInBytes">Максимальный размер файла в байтах</param>
+            <returns>Результат валидации</returns>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.FileValidationResult">
+            <summary>
+            Результат валидации файла
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.ILibraryService">
+            <summary>
+            Сервис для операций библиотеки (выдача/возврат)
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ILibraryService.BorrowBookAsync(System.Guid,System.Guid)">
+            <summary>
+            Выдача книги читателю
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ILibraryService.GetLibraryBooksAsync(System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Получить список книг библиотеки с информацией о выдаче
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ILibraryService.ReturnBookAsync(System.Guid,System.Guid)">
+            <summary>
+            Возврат книги читателем
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.ILibraryService.GetLibraryBookDetailsAsync(System.String)">
+            <summary>
+            Получить детальную информацию о книге по ID или названию
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Services.IMessagePublisher">
+            <summary>
+            Интерфейс для публикации сообщений в брокер сообщений
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IMessagePublisher.PublishAsync``1(``0,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Публикует сообщение в брокер
+            </summary>
+            <typeparam name="T">Тип сообщения</typeparam>
+            <param name="message">Сообщение для публикации</param>
+            <param name="routingKey">Ключ маршрутизации (опционально)</param>
+            <param name="cancellationToken">Токен отмены</param>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IReaderService.CreateReader(PracticalWork.Library.Models.Reader)">
+            <summary>
+            Создание карточки читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IReaderService.ExtendReaderAsync(System.Guid,System.DateOnly)">
+            <summary>
+            Продление срока действия карточки читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IReaderService.CloseReaderAsync(System.Guid)">
+            <summary>
+            Закрытие карточки читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Services.IReaderService.GetBorrowedBooksAsync(System.Guid)">
+            <summary>
+            Получить список взятых книг читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Storage.EntityBase">
+            <summary>
+            Базовый класс для всех сущностей
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Abstractions.Storage.IBookBorrowRepository">
+            <summary>
+            Репозиторий для работы с выдачами книг
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookBorrowRepository.CreateBorrowAsync(System.Guid,System.Guid,System.DateOnly,System.DateOnly)">
+            <summary>
+            Создать запись о выдаче книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookBorrowRepository.FindActiveBorrowAsync(System.Guid,System.Guid)">
+            <summary>
+            Найти активную запись о выдаче книги читателю
+            </summary>
+            <returns>Идентификатор записи о выдаче или null, если не найдена</returns>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookBorrowRepository.GetDueDateAsync(System.Guid)">
+            <summary>
+            Получить дату возврата (DueDate) для активной выдачи
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookBorrowRepository.UpdateBorrowAsync(System.Guid,System.DateOnly,PracticalWork.Library.Enums.BookIssueStatus)">
+            <summary>
+            Обновить запись о выдаче (дата возврата и статус)
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookRepository.GetBookByIdAsync(System.Guid)">
+            <summary>
+            Получить книгу по идентификатору
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookRepository.UpdateBookAsync(System.Guid,PracticalWork.Library.Models.Book)">
+            <summary>
+            Обновить книгу
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookRepository.GetBooksAsync(System.Nullable{PracticalWork.Library.Enums.BookStatus},System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Получить список книг с фильтрацией и пагинацией
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookRepository.GetLibraryBooksAsync(System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Получить список не архивных книг с информацией о выдаче, фильтрацией и пагинацией
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IBookRepository.FindBookByIdOrTitleAsync(System.String)">
+            <summary>
+            Найти книгу по идентификатору или названию
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Abstractions.Storage.IEntity.Id">
+            <summary> Идентификатор сущности </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Abstractions.Storage.IEntity.CreatedAt">
+            <summary> Дата создания </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Abstractions.Storage.IEntity.UpdatedAt">
+            <summary> Дата обновления </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.CreateReader(PracticalWork.Library.Models.Reader)">
+            <summary>
+            Создать карточку читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.ExistsByPhoneNumberAsync(System.String)">
+            <summary>
+            Проверить существование читателя по номеру телефона
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.GetByIdAsync(System.Guid)">
+            <summary>
+            Получить читателя по идентификатору
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.UpdateExpiryDateAsync(System.Guid,System.DateOnly)">
+            <summary>
+            Обновить дату окончания действия карточки
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.GetActiveBorrowedBookIdsAsync(System.Guid)">
+            <summary>
+            Получить идентификаторы книг, которые сейчас выданы читателю
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.CloseReaderAsync(System.Guid,System.DateOnly)">
+            <summary>
+            Закрыть карточку читателя (сделать неактивной и установить дату окончания)
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Abstractions.Storage.IReaderRepository.GetActiveBorrowedBooksAsync(System.Guid)">
+            <summary>
+            Получить активные выдачи книг для читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.ICommandHandler`2">
+            <summary>
+            Обработчик команды
+            </summary>
+            <typeparam name="TCommand">Тип команды</typeparam>
+            <typeparam name="TResult">Тип результата</typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.ICommandHandler`1">
+            <summary>
+            Обработчик команды без результата
+            </summary>
+            <typeparam name="TCommand">Тип команды</typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.ICommand`1">
+            <summary>
+            Базовый интерфейс команды
+            </summary>
+            <typeparam name="TResult">Тип результата</typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.ICommand">
+            <summary>
+            Базовый интерфейс команды без результата
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.IMediator">
+            <summary>
+            Медиатор для отправки команд и запросов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.IQueryHandler`2">
+            <summary>
+            Обработчик запроса
+            </summary>
+            <typeparam name="TQuery">Тип запроса</typeparam>
+            <typeparam name="TResult">Тип результата</typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Abstractions.IQuery`1">
+            <summary>
+            Базовый интерфейс запроса
+            </summary>
+            <typeparam name="TResult">Тип результата</typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Books.AddBookDetailsCommand">
+            <summary>
+            Команда добавления деталей книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Books.AddBookDetailsCommand.#ctor(System.Guid,System.String,System.IO.Stream,System.String,System.String)">
+            <summary>
+            Команда добавления деталей книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Books.ArchiveBookCommand">
+            <summary>
+            Команда архивирования книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Books.ArchiveBookCommand.#ctor(System.Guid)">
+            <summary>
+            Команда архивирования книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Books.CreateBookCommand">
+            <summary>
+            Команда создания книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Books.CreateBookCommand.#ctor(PracticalWork.Library.Models.Book)">
+            <summary>
+            Команда создания книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Books.UpdateBookCommand">
+            <summary>
+            Команда обновления книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Books.UpdateBookCommand.#ctor(System.Guid,PracticalWork.Library.Models.Book)">
+            <summary>
+            Команда обновления книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Library.BorrowBookCommand">
+            <summary>
+            Команда выдачи книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Library.BorrowBookCommand.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Команда выдачи книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Library.ReturnBookCommand">
+            <summary>
+            Команда возврата книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Library.ReturnBookCommand.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Команда возврата книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Readers.CloseReaderCommand">
+            <summary>
+            Команда закрытия карточки читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Readers.CloseReaderCommand.#ctor(System.Guid)">
+            <summary>
+            Команда закрытия карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Readers.CreateReaderCommand">
+            <summary>
+            Команда создания читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Readers.CreateReaderCommand.#ctor(PracticalWork.Library.Models.Reader)">
+            <summary>
+            Команда создания читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Commands.Readers.ExtendReaderCommand">
+            <summary>
+            Команда продления срока действия карточки читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Commands.Readers.ExtendReaderCommand.#ctor(System.Guid,System.DateOnly)">
+            <summary>
+            Команда продления срока действия карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.AddBookDetailsCommandHandler">
+            <summary>
+            Обработчик команды добавления деталей книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.ArchiveBookCommandHandler">
+            <summary>
+            Обработчик команды архивирования книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.BorrowBookCommandHandler">
+            <summary>
+            Обработчик команды выдачи книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.CloseReaderCommandHandler">
+            <summary>
+            Обработчик команды закрытия карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.CreateBookCommandHandler">
+            <summary>
+            Обработчик команды создания книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.CreateReaderCommandHandler">
+            <summary>
+            Обработчик команды создания читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.ExtendReaderCommandHandler">
+            <summary>
+            Обработчик команды продления срока действия карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.ReturnBookCommandHandler">
+            <summary>
+            Обработчик команды возврата книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Commands.UpdateBookCommandHandler">
+            <summary>
+            Обработчик команды обновления книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Queries.GetBookDetailsQueryHandler">
+            <summary>
+            Обработчик запроса получения деталей книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Queries.GetBooksQueryHandler">
+            <summary>
+            Обработчик запроса получения списка книг
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Queries.GetLibraryBookDetailsQueryHandler">
+            <summary>
+            Обработчик запроса получения деталей книги библиотеки
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Queries.GetLibraryBooksQueryHandler">
+            <summary>
+            Обработчик запроса получения списка книг библиотеки
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Handlers.Queries.GetReaderBooksQueryHandler">
+            <summary>
+            Обработчик запроса получения списка книг читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Mediator">
+            <summary>
+            Реализация медиатора для отправки команд и запросов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Queries.Books.GetBookDetailsQuery">
+            <summary>
+            Запрос получения деталей книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Queries.Books.GetBookDetailsQuery.#ctor(System.Guid)">
+            <summary>
+            Запрос получения деталей книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Queries.Books.GetBooksQuery">
+            <summary>
+            Запрос получения списка книг
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Queries.Books.GetBooksQuery.#ctor(System.Nullable{PracticalWork.Library.Enums.BookStatus},System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Запрос получения списка книг
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Queries.Library.GetLibraryBookDetailsQuery">
+            <summary>
+            Запрос получения деталей книги библиотеки
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Queries.Library.GetLibraryBookDetailsQuery.#ctor(System.String)">
+            <summary>
+            Запрос получения деталей книги библиотеки
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Queries.Library.GetLibraryBooksQuery">
+            <summary>
+            Запрос получения списка книг библиотеки
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Queries.Library.GetLibraryBooksQuery.#ctor(System.Nullable{PracticalWork.Library.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Запрос получения списка книг библиотеки
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Application.Queries.Readers.GetReaderBooksQuery">
+            <summary>
+            Запрос получения списка книг читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Application.Queries.Readers.GetReaderBooksQuery.#ctor(System.Guid)">
+            <summary>
+            Запрос получения списка книг читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Entities.Borrow">
+            <summary>
+            Сущность выдачи книги
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.Id">
+            <summary>Идентификатор выдачи</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.ReaderId">
+            <summary>Идентификатор карточки читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.BorrowDate">
+            <summary>Дата выдачи книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.DueDate">
+            <summary>Срок возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.ReturnDate">
+            <summary>Фактическая дата возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.Status">
+            <summary>Статус выдачи</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.CreatedAt">
+            <summary>Дата создания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.Entities.Borrow.UpdatedAt">
+            <summary>Дата обновления</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Entities.Borrow.IsOverdue(System.DateOnly)">
+            <summary>
+            Проверить, просрочена ли выдача
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Entities.Borrow.Return(System.DateOnly)">
+            <summary>
+            Вернуть книгу
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Exceptions.BookDomainException">
+            <summary>
+            Доменное исключение для операций с книгами
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Exceptions.DomainException">
+            <summary>
+            Базовое доменное исключение
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Exceptions.LibraryDomainException">
+            <summary>
+            Доменное исключение для операций библиотеки
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Exceptions.ReaderDomainException">
+            <summary>
+            Доменное исключение для операций с читателями
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Services.ArchiveCheckService">
+            <summary>
+            Доменный сервис для проверки возможности архивирования
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.ArchiveCheckService.CanBeArchived(PracticalWork.Library.Models.Book)">
+            <summary>
+            Проверить, может ли книга быть заархивирована
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Services.BookAvailabilityService">
+            <summary>
+            Доменный сервис для проверки доступности книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.BookAvailabilityService.CanBeBorrowed(PracticalWork.Library.Models.Book)">
+            <summary>
+            Проверить, может ли книга быть выдана
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.BookAvailabilityService.CanBeArchived(PracticalWork.Library.Models.Book)">
+            <summary>
+            Проверить, может ли книга быть заархивирована
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.Services.ReaderValidationService">
+            <summary>
+            Доменный сервис для валидации читателя
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.ReaderValidationService.IsActive(PracticalWork.Library.Models.Reader)">
+            <summary>
+            Проверить, активен ли читатель
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.ReaderValidationService.CanBeExtended(PracticalWork.Library.Models.Reader,System.DateOnly)">
+            <summary>
+            Проверить, может ли карточка быть продлена
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.Services.ReaderValidationService.CanBeClosed(PracticalWork.Library.Models.Reader,System.Collections.Generic.IReadOnlyList{System.Guid})">
+            <summary>
+            Проверить, может ли карточка быть закрыта
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Domain.ValueObjects.ReaderStatus">
+            <summary>
+            Статус читателя (Value Object)
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.ValueObjects.ReaderStatus.IsActive">
+            <summary>Активен ли читатель</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Domain.ValueObjects.ReaderStatus.ExpiryDate">
+            <summary>Дата окончания действия карточки</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.ValueObjects.ReaderStatus.IsValid(System.DateOnly)">
+            <summary>
+            Проверить, действительна ли карточка
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.ValueObjects.ReaderStatus.Active(System.DateOnly)">
+            <summary>
+            Создать активный статус
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Domain.ValueObjects.ReaderStatus.Inactive(System.DateOnly)">
+            <summary>
+            Создать неактивный статус
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Entry.AddDomain(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Регистрация зависимостей уровня бизнес-логики
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Enums.BookCategory">
+            <summary>
+            Тип книги
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookCategory.ScientificBook">
+            <summary>Научная литература</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookCategory.EducationalBook">
+            <summary>Учебное пособие</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookCategory.FictionBook">
+            <summary>Художественная литература</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Enums.BookIssueStatus">
+            <summary>
+            Состояние книги
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookIssueStatus.Issued">
+            <summary>
+            Выдана
+            </summary>
+            <remarks>Значение по умолчанию</remarks>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookIssueStatus.Returned">
+            <summary>
+            Возвращена
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookIssueStatus.Overdue">
+            <summary>
+            Возвращена с просрочкой
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Enums.BookStatus">
+            <summary>
+            Статус книги в библиотеке
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookStatus.Available">
+            <summary>Книга доступна для выдачи</summary>
+            <remarks>Значение по умолчанию</remarks>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookStatus.Borrow">
+            <summary>Книга выдана читателю</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Enums.BookStatus.Archived">
+            <summary>Книга переведена в архив</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.BaseLibraryEvent">
+            <summary>
+            Базовое сообщение для событий библиотеки
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Events.BaseLibraryEvent.EventId">
+            <summary>
+            Идентификатор события
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Events.BaseLibraryEvent.OccurredOn">
+            <summary>
+            Дата отправки события
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Events.BaseLibraryEvent.EventType">
+            <summary>
+            Тип события
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Events.BaseLibraryEvent.Source">
+            <summary>
+            Источник события
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.BookArchivedEvent">
+            <summary>
+            Событие архивирования книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.BookBorrowedEvent">
+            <summary>
+            Событие выдачи книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.BookCreatedEvent">
+            <summary>
+            Событие создания книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.BookReturnedEvent">
+            <summary>
+            Событие возврата книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.ReaderClosedEvent">
+            <summary>
+            Событие закрытия карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Events.ReaderCreatedEvent">
+            <summary>
+            Событие создания карточки читателя
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Exceptions.AppException">
+            <summary>
+            Исключение уровня приложения
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Exceptions.LibraryServiceException">
+            <summary>
+            Исключение доменного уровня для операций библиотеки (выдача/возврат)
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.Book">
+            <summary>
+            Книга
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Category">
+            <summary>Категория</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.CoverImagePath">
+            <summary>Путь к изображению обложки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.CreatedAt">
+            <summary>Дата создания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Book.UpdatedAt">
+            <summary>Дата обновления</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Models.Book.CanBeArchived">
+            <summary>Проверка перевода в архив</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Models.Book.CanBeBorrowed">
+            <summary>Проверка выдачи на руки</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Models.Book.Archive">
+            <summary>Перевод в архив</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Models.Book.UpdateDetails(System.String,System.String)">
+            <summary>
+            Обновление деталей
+            </summary>
+            <param name="description"> Краткое описание книги </param>
+            <param name="coverImagePath"> Путь к изображению обложки </param>
+        </member>
+        <member name="T:PracticalWork.Library.Models.BookDetails">
+            <summary>
+            Детальная информация о книге
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Category">
+            <summary>Категория</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.CoverImageUrl">
+            <summary>URL для доступа к обложке</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookDetails.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.BookWithBorrowInfo">
+            <summary>
+            Книга с информацией о выдаче
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Category">
+            <summary>Категория</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.CoverImagePath">
+            <summary>Путь к изображению обложки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.ReaderId">
+            <summary>Идентификатор читателя, которому выдана книга (null, если не выдана)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.BorrowDate">
+            <summary>Дата выдачи книги (null, если не выдана)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BookWithBorrowInfo.DueDate">
+            <summary>Срок возврата книги (null, если не выдана)</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.BorrowedBook">
+            <summary>
+            Взятая читателем книга
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BorrowedBook.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BorrowedBook.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BorrowedBook.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BorrowedBook.BorrowDate">
+            <summary>Дата выдачи книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.BorrowedBook.DueDate">
+            <summary>Срок возврата книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.PagedResult`1">
+            <summary>
+            Результат пагинации
+            </summary>
+            <typeparam name="T">Тип элементов</typeparam>
+        </member>
+        <member name="P:PracticalWork.Library.Models.PagedResult`1.Items">
+            <summary>Список элементов</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.PagedResult`1.TotalCount">
+            <summary>Общее количество элементов</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.PagedResult`1.PageNumber">
+            <summary>Номер текущей страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.PagedResult`1.PageSize">
+            <summary>Размер страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.PagedResult`1.TotalPages">
+            <summary>Общее количество страниц</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.Reader">
+            <summary>
+            Карточка читателя
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.Id">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.FullName">
+            <summary>ФИО</summary>
+            <remarks>Запись идет через пробел</remarks>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.PhoneNumber">
+            <summary>Номер телефона</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.ExpiryDate">
+            <summary>Дата окончания действия карточки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.IsActive">
+            <summary>Активность карточки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.CreatedAt">
+            <summary>Дата создания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.Reader.UpdatedAt">
+            <summary>Дата обновления</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Models.ReturnedBook">
+            <summary>
+            Возвращенная книга
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.ReturnedBook.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.ReturnedBook.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.ReturnedBook.ReturnDate">
+            <summary>Дата возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Models.ReturnedBook.WasOverdue">
+            <summary>Была ли книга возвращена с просрочкой</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Services.FileValidationService">
+            <summary>
+            Сервис для валидации файлов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Services.LibraryService">
+            <summary>
+            Сервис для операций библиотеки (выдача книг)
+            </summary>
+        </member>
+    </members>
+</doc>

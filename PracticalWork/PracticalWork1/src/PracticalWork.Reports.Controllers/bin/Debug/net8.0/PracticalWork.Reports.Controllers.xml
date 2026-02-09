@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Controllers</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Controllers.Api.v1.ReportsController">
+            <summary>
+            Контроллер для работы с отчетами
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Controllers.Api.v1.ReportsController.GenerateReport(PracticalWork.Reports.Contracts.v1.Reports.Request.GenerateReportRequest)">
+            <summary>
+            Генерация отчета в формате CSV
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Controllers.Api.v1.ReportsController.GetActivityLogs(PracticalWork.Reports.Contracts.v1.Reports.Request.GetActivityLogsRequest)">
+            <summary>
+            Получение логов активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Controllers.Api.v1.ReportsController.GetReports">
+            <summary>
+            Получение списка отчетов
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Controllers.Api.v1.ReportsController.GetReportDownload(System.String)">
+            <summary>
+            Получение URL для скачивания отчета
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Cache.Redis</name>
+    </assembly>
+    <members>
+        <member name="M:PracticalWork.Library.Cache.Redis.Entry.AddCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Регистрация зависимостей для распределенного Cache
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Cache.Redis.Services.CacheService">
+            <summary>
+            Реализация сервиса кэша на основе Redis
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Data.Minio</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Data.Minio.Services.FileStorageService">
+            <summary>
+            Реализация сервиса для работы с MinIO
+            </summary>
+        </member>
+    </members>
+</doc>

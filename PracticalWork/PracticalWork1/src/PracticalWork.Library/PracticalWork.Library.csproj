@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <!--
+    Ядро библиотеки не должно зависеть от инфраструктурных пакетов (EF Core, Swagger, Hosting и т.п.).
+    Здесь оставляем только минимально необходимую зависимость от абстракций DI для регистрации сервисов.
+  -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+
+</Project>

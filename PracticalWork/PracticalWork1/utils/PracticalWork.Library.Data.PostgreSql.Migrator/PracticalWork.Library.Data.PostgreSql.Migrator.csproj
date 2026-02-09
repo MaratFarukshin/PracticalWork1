@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Cache.Redis\PracticalWork.Library.Cache.Redis.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Contracts\PracticalWork.Library.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Controllers\PracticalWork.Library.Controllers.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Data.Minio\PracticalWork.Library.Data.Minio.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Data.PostgreSql\PracticalWork.Library.Data.PostgreSql.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.MessageBroker.RabbitMQ\PracticalWork.Library.MessageBroker.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Library.Web\PracticalWork.Library.Web.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Cache.Redis\PracticalWork.Reports.Cache.Redis.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Contracts\PracticalWork.Reports.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Controllers\PracticalWork.Reports.Controllers.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Data.Minio\PracticalWork.Reports.Data.Minio.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Data.PostgreSql\PracticalWork.Reports.Data.PostgreSql.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.MessageBroker.RabbitMQ\PracticalWork.Reports.MessageBroker.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports.Web\PracticalWork.Reports.Web.csproj" />
+    <ProjectReference Include="..\..\src\PracticalWork.Reports\PracticalWork.Reports.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" />
+    <PackageReference Include="Asp.Versioning.Mvc" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" />
+  </ItemGroup>
+
+</Project>

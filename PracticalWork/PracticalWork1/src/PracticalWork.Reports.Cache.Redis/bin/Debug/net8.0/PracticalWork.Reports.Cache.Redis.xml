@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Cache.Redis</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Cache.Redis.Services.CacheService">
+            <summary>
+            Реализация кэша через Redis (временная реализация через in-memory для демонстрации)
+            </summary>
+        </member>
+    </members>
+</doc>

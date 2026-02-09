@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Request.GenerateReportRequest">
+            <summary>
+            Запрос на генерацию отчета
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Request.GenerateReportRequest.#ctor(System.DateOnly,System.DateOnly,System.Nullable{PracticalWork.Reports.Contracts.v1.Reports.Request.EventType})">
+            <summary>
+            Запрос на генерацию отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Request.EventType">
+            <summary>
+            Тип события для фильтрации
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Request.GetActivityLogsRequest">
+            <summary>
+            Запрос получения логов активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Request.GetActivityLogsRequest.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{PracticalWork.Reports.Contracts.v1.Reports.Request.EventType},System.Int32,System.Int32)">
+            <summary>
+            Запрос получения логов активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.GenerateReportResponse">
+            <summary>
+            Ответ на запрос генерации отчета
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.GenerateReportResponse.#ctor(System.Guid,System.String,System.DateTime,System.DateOnly,System.DateOnly,PracticalWork.Reports.Contracts.v1.Reports.Response.ReportStatus)">
+            <summary>
+            Ответ на запрос генерации отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.ReportStatus">
+            <summary>
+            Статус отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.GetActivityLogsResponse">
+            <summary>
+            Ответ на запрос получения логов активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.GetActivityLogsResponse.#ctor(System.Collections.Generic.IReadOnlyList{PracticalWork.Reports.Contracts.v1.Reports.Response.ActivityLogItemResponse},System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Ответ на запрос получения логов активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.ActivityLogItemResponse">
+            <summary>
+            Элемент лога активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.ActivityLogItemResponse.#ctor(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid},System.Int32,System.DateTime,System.String)">
+            <summary>
+            Элемент лога активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.GetReportDownloadResponse">
+            <summary>
+            Ответ на запрос получения URL для скачивания отчета
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.GetReportDownloadResponse.#ctor(System.String)">
+            <summary>
+            Ответ на запрос получения URL для скачивания отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.GetReportsResponse">
+            <summary>
+            Ответ на запрос получения списка отчетов
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.GetReportsResponse.#ctor(System.Collections.Generic.IReadOnlyList{PracticalWork.Reports.Contracts.v1.Reports.Response.ReportInfoResponse})">
+            <summary>
+            Ответ на запрос получения списка отчетов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Contracts.v1.Reports.Response.ReportInfoResponse">
+            <summary>
+            Информация об отчете
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Contracts.v1.Reports.Response.ReportInfoResponse.#ctor(System.Guid,System.String,System.DateTime,System.DateOnly,System.DateOnly,PracticalWork.Reports.Contracts.v1.Reports.Response.ReportStatus)">
+            <summary>
+            Информация об отчете
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Web</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Web.DomainExceptionFilter">
+            <summary>
+            Фильтр для обработки исключений домена
+            </summary>
+        </member>
+    </members>
+</doc>

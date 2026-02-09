@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.Data.PostgreSql</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Data.PostgreSql.ReportsDbContext">
+            <summary>
+            Контекст EF Core для сервиса Отчеты
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity">
+            <summary>
+            Сущность лога активности
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity.ExternalBookId">
+            <summary>Внешний ключ на Book (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity.ExternalReaderId">
+            <summary>Внешний ключ на Reader (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity.EventType">
+            <summary>Тип события</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity.EventDate">
+            <summary>Дата события</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ActivityLogEntity.Metadata">
+            <summary>Дополнительная информация (JSONB)</summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity">
+            <summary>
+            Сущность отчета
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.Name">
+            <summary>Название отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.FilePath">
+            <summary>Путь к файлу в MinIO</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.GeneratedAt">
+            <summary>Дата генерации</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.PeriodFrom">
+            <summary>Начало периода отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.PeriodTo">
+            <summary>Конец периода отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Data.PostgreSql.Entities.ReportEntity.Status">
+            <summary>Статус отчета</summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Data.PostgreSql.Repositories.ActivityLogRepository">
+            <summary>
+            Репозиторий для работы с логами активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Data.PostgreSql.Repositories.ReportRepository">
+            <summary>
+            Репозиторий для работы с отчетами
+            </summary>
+        </member>
+    </members>
+</doc>

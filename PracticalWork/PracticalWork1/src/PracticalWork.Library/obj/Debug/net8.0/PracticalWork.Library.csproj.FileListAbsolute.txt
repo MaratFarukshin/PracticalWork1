@@ -1,0 +1,62 @@
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.deps.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.AssemblyReference.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfoInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfo.cs
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.CoreCompileInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.sourcelink.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\refint\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\ref\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.runtimeconfig.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\refint\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\ref\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.deps.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfo.cs
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.sourcelink.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\refint\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\ref\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\refint\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library\obj\Debug\net8.0\ref\PracticalWork.Library.dll

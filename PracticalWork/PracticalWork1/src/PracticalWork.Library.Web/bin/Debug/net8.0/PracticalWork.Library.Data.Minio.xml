@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Data.Minio</name>
+    </assembly>
+    <members>
+        <member name="M:PracticalWork.Library.Data.Minio.Entry.AddMinioFileStorage(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Регистрация зависимостей для хранилища документов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.Minio.Services.FileStorageService">
+            <summary>
+            Реализация сервиса файлового хранилища на основе MinIO
+            </summary>
+        </member>
+    </members>
+</doc>

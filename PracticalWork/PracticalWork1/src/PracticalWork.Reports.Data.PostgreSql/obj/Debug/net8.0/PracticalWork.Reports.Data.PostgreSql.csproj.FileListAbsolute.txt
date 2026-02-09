@@ -1,0 +1,63 @@
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.runtimeconfig.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\Practica.1558E7BF.Up2Date
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.deps.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.runtimeconfig.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfo.cs
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.sourcelink.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\Practica.1558E7BF.Up2Date
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.genruntimeconfig.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.runtimeconfig.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\Practica.1558E7BF.Up2Date
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.PostgreSql.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\PracticalWork.Reports.Data.PostgreSql.genruntimeconfig.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.PostgreSql\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.PostgreSql.dll

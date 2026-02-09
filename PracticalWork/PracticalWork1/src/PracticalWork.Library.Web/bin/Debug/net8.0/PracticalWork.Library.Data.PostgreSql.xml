@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Data.PostgreSql</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.AppDbContext">
+            <summary>
+            Контекст EF Core для приложения
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity">
+            <summary>
+            Базовый класс для книг
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.CoverImagePath">
+            <summary>Путь к изображению обложки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.AbstractBookEntity.IssuanceRecords">
+            <summary>Записи о выдачи книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity">
+            <summary>
+            Выдачи книги на руки читателю
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.ReaderId">
+            <summary>Идентификатор карточки читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.BorrowDate">
+            <summary>Дата выдачи книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.DueDate">
+            <summary>Срок возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.ReturnDate">
+            <summary>Фактическая дата возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.BookBorrowEntity.Status">
+            <summary>Статус книги в библиотеке</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.EducationalBookEntity">
+            <summary>
+            Учебное пособие
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.EducationalBookEntity.Subject">
+            <summary>Учебная область</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.EducationalBookEntity.GradeLevel">
+            <summary>Учебный уровень</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.FictionBookEntity">
+            <summary>
+            Художественная литература
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.FictionBookEntity.CategoriesOfFiction">
+            <summary>Категория художественной прозы</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity">
+            <summary>
+            Карточка читателя
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity.FullName">
+            <summary>ФИО</summary>
+            <remarks>Запись идет через пробел</remarks>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity.PhoneNumber">
+            <summary>Номер телефона</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity.ExpiryDate">
+            <summary>Дата окончания действия карточки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity.IsActive">
+            <summary>Активность карточки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ReaderEntity.BorrowedRecords">
+            <summary>Записи о взятых книгах</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Entities.ScientificBookEntity">
+            <summary>
+            Научная литература
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ScientificBookEntity.ResearchField">
+            <summary>Область исследований</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Data.PostgreSql.Entities.ScientificBookEntity.Publisher">
+            <summary>Издатель</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Data.PostgreSql.Entry.AddPostgreSqlStorage(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.EntityFrameworkCore.DbContextOptionsBuilder})">
+            <summary>
+            Добавления зависимостей для работы с БД
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.MigrationsRunner">
+            <summary>
+            Класс для применения миграций БД
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Migrations.Init">
+            <inheritdoc />
+        </member>
+        <member name="M:PracticalWork.Library.Data.PostgreSql.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PracticalWork.Library.Data.PostgreSql.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PracticalWork.Library.Data.PostgreSql.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PracticalWork.Library.Data.PostgreSql.Repositories.BookBorrowRepository">
+            <summary>
+            Репозиторий для работы с выдачами книг
+            </summary>
+        </member>
+    </members>
+</doc>

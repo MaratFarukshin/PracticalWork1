@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.MessageBroker.RabbitMQ</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Library.MessageBroker.RabbitMQ.Services.RabbitMqMessagePublisher">
+            <summary>
+            Реализация публикатора сообщений через RabbitMQ
+            </summary>
+        </member>
+    </members>
+</doc>

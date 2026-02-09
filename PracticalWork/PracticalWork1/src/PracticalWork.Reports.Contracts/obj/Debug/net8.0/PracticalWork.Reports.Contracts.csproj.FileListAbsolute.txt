@@ -1,0 +1,56 @@
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.deps.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfoInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfo.cs
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.csproj.CoreCompileInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.sourcelink.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\refint\PracticalWork.Reports.Contracts.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\ref\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\refint\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\ref\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.deps.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfo.cs
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.sourcelink.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\refint\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\ref\PracticalWork.Reports.Contracts.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\refint\PracticalWork.Reports.Contracts.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Contracts\obj\Debug\net8.0\ref\PracticalWork.Reports.Contracts.dll

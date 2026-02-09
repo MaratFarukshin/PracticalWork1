@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports.MessageBroker.RabbitMQ</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.MessageBroker.RabbitMQ.Services.RabbitMqMessageConsumer">
+            <summary>
+            RabbitMQ consumer для подписки на события библиотеки
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "g08OPF4MeR4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marat\\Downloads\\PracticalWork\\PracticalWork\\PracticalWork\\PracticalWork1\\src\\PracticalWork.Reports.Cache.Redis\\PracticalWork.Reports.Cache.Redis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.8\\microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\Marat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\Marat\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

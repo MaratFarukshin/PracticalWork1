@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Reports</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Reports.Abstractions.Services.ICacheService">
+            <summary>
+            Интерфейс для работы с кэшем
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Services.IFileStorageService">
+            <summary>
+            Интерфейс для работы с хранилищем файлов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Services.IMessageConsumer">
+            <summary>
+            Интерфейс для подписки на сообщения из брокера
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Services.IMessageConsumer.StartConsumingAsync(System.Threading.CancellationToken)">
+            <summary>
+            Начать прослушивание сообщений
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Services.IMessageConsumer.StopConsumingAsync(System.Threading.CancellationToken)">
+            <summary>
+            Остановить прослушивание сообщений
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Storage.EntityBase">
+            <summary>
+            Базовый класс для всех сущностей
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Storage.IEntity">
+            <summary>
+            Интерфейс для сущностей
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Storage.IActivityLogRepository">
+            <summary>
+            Репозиторий для работы с логами активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IActivityLogRepository.CreateAsync(PracticalWork.Reports.Models.ActivityLog,System.Threading.CancellationToken)">
+            <summary>
+            Создать лог активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IActivityLogRepository.GetActivityLogsAsync(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{PracticalWork.Reports.Models.EventType},System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Получить логи активности с фильтрацией и пагинацией
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Abstractions.Storage.IReportRepository">
+            <summary>
+            Репозиторий для работы с отчетами
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IReportRepository.CreateAsync(PracticalWork.Reports.Models.Report,System.Threading.CancellationToken)">
+            <summary>
+            Создать отчет
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IReportRepository.UpdateAsync(PracticalWork.Reports.Models.Report,System.Threading.CancellationToken)">
+            <summary>
+            Обновить отчет
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IReportRepository.GetByIdAsync(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить отчет по ID
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Abstractions.Storage.IReportRepository.GetAllAsync(System.Threading.CancellationToken)">
+            <summary>
+            Получить все отчеты
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Commands.GenerateReportCommand">
+            <summary>
+            Команда генерации отчета
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Application.Commands.GenerateReportCommand.#ctor(System.DateOnly,System.DateOnly,System.Nullable{PracticalWork.Reports.Models.EventType})">
+            <summary>
+            Команда генерации отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Handlers.Commands.GenerateReportCommandHandler">
+            <summary>
+            Обработчик команды генерации отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Handlers.Queries.GetActivityLogsQueryHandler">
+            <summary>
+            Обработчик запроса получения логов активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Handlers.Queries.GetReportDownloadQueryHandler">
+            <summary>
+            Обработчик запроса получения URL для скачивания отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Handlers.Queries.GetReportsQueryHandler">
+            <summary>
+            Обработчик запроса получения списка отчетов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Mediator">
+            <summary>
+            Простой медиатор для отправки команд и запросов.
+            Резолвит scoped-обработчики через IServiceScopeFactory, т.к. сам зарегистрирован как Singleton.
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.IMediator">
+            <summary>
+            Интерфейс медиатора
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Queries.GetActivityLogsQuery">
+            <summary>
+            Запрос получения логов активности
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Application.Queries.GetActivityLogsQuery.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{PracticalWork.Reports.Models.EventType},System.Int32,System.Int32)">
+            <summary>
+            Запрос получения логов активности
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Queries.GetReportDownloadQuery">
+            <summary>
+            Запрос получения URL для скачивания отчета
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Application.Queries.GetReportDownloadQuery.#ctor(System.String)">
+            <summary>
+            Запрос получения URL для скачивания отчета
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Queries.GetReportsQuery">
+            <summary>
+            Запрос получения списка отчетов
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Application.Queries.GetReportsQuery.#ctor">
+            <summary>
+            Запрос получения списка отчетов
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Application.Queries.ReportInfo">
+            <summary>
+            Информация об отчете для списка
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Reports.Application.Queries.ReportInfo.#ctor(System.Guid,System.String,System.DateTime,System.DateOnly,System.DateOnly,PracticalWork.Reports.Models.ReportStatus)">
+            <summary>
+            Информация об отчете для списка
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Models.ActivityLog">
+            <summary>
+            Лог активности системы
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.Id">
+            <summary>Идентификатор лога</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.ExternalBookId">
+            <summary>Внешний ключ на Book (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.ExternalReaderId">
+            <summary>Внешний ключ на Reader (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.EventType">
+            <summary>Тип события</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.EventDate">
+            <summary>Дата события</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.Metadata">
+            <summary>Дополнительная информация (JSONB)</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.CreatedAt">
+            <summary>Дата создания</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.ActivityLog.UpdatedAt">
+            <summary>Дата обновления</summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Models.PagedResult`1">
+            <summary>
+            Результат с пагинацией
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Models.Report">
+            <summary>
+            Отчет
+            </summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.Id">
+            <summary>Идентификатор отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.Name">
+            <summary>Название отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.FilePath">
+            <summary>Путь к файлу в MinIO</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.GeneratedAt">
+            <summary>Дата генерации</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.PeriodFrom">
+            <summary>Начало периода отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.PeriodTo">
+            <summary>Конец периода отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.Status">
+            <summary>Статус отчета</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.CreatedAt">
+            <summary>Дата создания</summary>
+        </member>
+        <member name="P:PracticalWork.Reports.Models.Report.UpdatedAt">
+            <summary>Дата обновления</summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Models.ReportStatus">
+            <summary>
+            Статус отчета
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Reports.Models.ReportStatus.InProgress">
+            <summary>В процессе</summary>
+        </member>
+        <member name="F:PracticalWork.Reports.Models.ReportStatus.Generated">
+            <summary>Сгенерирован</summary>
+        </member>
+        <member name="F:PracticalWork.Reports.Models.ReportStatus.Error">
+            <summary>Ошибка</summary>
+        </member>
+        <member name="T:PracticalWork.Reports.Models.EventType">
+            <summary>
+            Тип события
+            </summary>
+        </member>
+    </members>
+</doc>

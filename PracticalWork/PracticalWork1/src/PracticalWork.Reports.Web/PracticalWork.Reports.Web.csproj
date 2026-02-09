@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PracticalWork.Reports\PracticalWork.Reports.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.Controllers\PracticalWork.Reports.Controllers.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.Contracts\PracticalWork.Reports.Contracts.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.Data.PostgreSql\PracticalWork.Reports.Data.PostgreSql.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.Cache.Redis\PracticalWork.Reports.Cache.Redis.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.Data.Minio\PracticalWork.Reports.Data.Minio.csproj" />
+    <ProjectReference Include="..\PracticalWork.Reports.MessageBroker.RabbitMQ\PracticalWork.Reports.MessageBroker.RabbitMQ.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" />
+    <PackageReference Include="JetBrains.Annotations" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

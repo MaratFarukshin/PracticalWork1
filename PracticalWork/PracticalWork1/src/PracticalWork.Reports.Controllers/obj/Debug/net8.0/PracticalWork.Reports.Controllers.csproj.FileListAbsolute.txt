@@ -1,0 +1,66 @@
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\Practica.EE9E0345.Up2Date
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\refint\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\ref\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.deps.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfo.cs
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.sourcelink.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\Practica.EE9E0345.Up2Date
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\refint\PracticalWork.Reports.Controllers.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\ref\PracticalWork.Reports.Controllers.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\bin\Debug\net8.0\PracticalWork.Reports.Contracts.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\Practica.EE9E0345.Up2Date
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\refint\PracticalWork.Reports.Controllers.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\PracticalWork.Reports.Controllers.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Controllers\obj\Debug\net8.0\ref\PracticalWork.Reports.Controllers.dll

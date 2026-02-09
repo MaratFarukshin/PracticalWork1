@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Web</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Library.Web.Configuration.DomainExceptionFilter`1">
+            <summary>
+            Фильтр предназначен для трансформации доменных исключений в Bad Request
+            </summary>
+            <typeparam name="TAppException"> Доменное исключение </typeparam>
+        </member>
+        <member name="T:PracticalWork.Library.Web.Middleware.RequestLoggingMiddleware">
+            <summary>
+            Middleware для логирования HTTP-запросов
+            </summary>
+        </member>
+    </members>
+</doc>

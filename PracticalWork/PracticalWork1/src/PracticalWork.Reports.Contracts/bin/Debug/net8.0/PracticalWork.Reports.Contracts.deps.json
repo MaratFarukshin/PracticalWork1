@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PracticalWork.Reports.Contracts/1.0.0": {
+        "runtime": {
+          "PracticalWork.Reports.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PracticalWork.Reports.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Controllers</name>
+    </assembly>
+    <members>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.BooksController.CreateBook(PracticalWork.Library.Contracts.v1.Books.Request.CreateBookRequest)">
+            <summary> Создание новой книги</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.BooksController.UpdateBook(System.Guid,PracticalWork.Library.Contracts.v1.Books.Request.UpdateBookRequest)">
+            <summary> Редактирование книги</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.BooksController.ArchiveBook(System.Guid)">
+            <summary> Перевод книги в архив</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.BooksController.GetBooks(PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest)">
+            <summary> Получение списка книг</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.BooksController.AddBookDetails(System.Guid,PracticalWork.Library.Contracts.v1.Books.Request.AddBookDetailsRequest)">
+            <summary>Добавление деталей книги</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.LibraryController.BorrowBook(PracticalWork.Library.Contracts.v1.Library.Request.BorrowBookRequest)">
+            <summary> Выдача книги читателю</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.LibraryController.GetLibraryBooks(PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest)">
+            <summary> Получение списка книг библиотеки</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.LibraryController.ReturnBook(PracticalWork.Library.Contracts.v1.Library.Request.ReturnBookRequest)">
+            <summary> Возврат книги читателем</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.LibraryController.GetLibraryBookDetails(System.String)">
+            <summary> Получение деталей книги</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.ReadersController.CreateReader(PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest)">
+            <summary> Создание карточки читателя</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.ReadersController.ExtendReader(System.Guid,PracticalWork.Library.Contracts.v1.Readers.Request.ExtendReaderRequest)">
+            <summary> Продление срока действия карточки читателя</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.ReadersController.CloseReader(System.Guid)">
+            <summary> Закрытие карточки читателя</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Api.v1.ReadersController.GetBorrowedBooks(System.Guid)">
+            <summary> Получение взятых книг читателя</summary>
+        </member>
+        <member name="M:PracticalWork.Library.Controllers.Entry.AddApi(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            Добавление API приложения
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Controllers.Validations.v1.BorrowBookRequestValidator">
+            <summary>
+            Валидация запроса на выдачу книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Controllers.Validations.v1.ReturnBookRequestValidator">
+            <summary>
+            Валидация запроса на возврат книги
+            </summary>
+        </member>
+    </members>
+</doc>

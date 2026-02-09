@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalWork.Library.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook">
+            <param name="Title">Название книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook.#ctor(System.String,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.Int32)">
+            <param name="Title">Название книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Abstracts.AbstractBook.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Request.AddBookDetailsRequest">
+            <summary>
+            Запрос на добавления деталей по книге
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Request.CreateBookRequest">
+            <summary>
+            Запрос на создание книги
+            </summary>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Request.CreateBookRequest.#ctor(System.String,PracticalWork.Library.Contracts.v1.Enums.BookCategory,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.Int32)">
+            <summary>
+            Запрос на создание книги
+            </summary>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.CreateBookRequest.Category">
+            <summary>Категория книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest">
+            <summary>
+            Запрос на получение списка книг
+            </summary>
+            <param name="Status">Фильтр по статусу (опционально)</param>
+            <param name="Category">Фильтр по категории (опционально)</param>
+            <param name="Author">Фильтр по автору (опционально)</param>
+            <param name="PageNumber">Номер страницы (начиная с 1)</param>
+            <param name="PageSize">Размер страницы</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.#ctor(System.Nullable{PracticalWork.Library.Contracts.v1.Enums.BookStatus},System.Nullable{PracticalWork.Library.Contracts.v1.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Запрос на получение списка книг
+            </summary>
+            <param name="Status">Фильтр по статусу (опционально)</param>
+            <param name="Category">Фильтр по категории (опционально)</param>
+            <param name="Author">Фильтр по автору (опционально)</param>
+            <param name="PageNumber">Номер страницы (начиная с 1)</param>
+            <param name="PageSize">Размер страницы</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.Status">
+            <summary>Фильтр по статусу (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.Category">
+            <summary>Фильтр по категории (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.Author">
+            <summary>Фильтр по автору (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.PageNumber">
+            <summary>Номер страницы (начиная с 1)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Request.GetBooksRequest.PageSize">
+            <summary>Размер страницы</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Request.UpdateBookRequest">
+            <summary>
+            Запрос на обновление книги
+            </summary>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Request.UpdateBookRequest.#ctor(System.String,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.Int32)">
+            <summary>
+            Запрос на обновление книги
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.AddBookDetailsResponse">
+            <summary>
+            Ответ на добавление деталей книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="CoverImagePath">Путь к изображению обложки</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.AddBookDetailsResponse.#ctor(System.Guid,System.String)">
+            <summary>
+            Ответ на добавление деталей книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="CoverImagePath">Путь к изображению обложки</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.AddBookDetailsResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.AddBookDetailsResponse.CoverImagePath">
+            <summary>Путь к изображению обложки</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.ArchiveBookResponse">
+            <summary>
+            Ответ на перевод книги в архив
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="ArchivedAt">Дата перевода в архив</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.ArchiveBookResponse.#ctor(System.Guid,System.String,System.DateTime)">
+            <summary>
+            Ответ на перевод книги в архив
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="ArchivedAt">Дата перевода в архив</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.ArchiveBookResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.ArchiveBookResponse.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.ArchiveBookResponse.ArchivedAt">
+            <summary>Дата перевода в архив</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse">
+            <summary>
+            Ответ с детальной информацией по книге
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+            <param name="CoverImagePath">Путь к изображению обложки</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.#ctor(System.Guid,System.String,PracticalWork.Library.Contracts.v1.Enums.BookCategory,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.Int32,System.String,PracticalWork.Library.Contracts.v1.Enums.BookStatus,System.Boolean)">
+            <summary>
+            Ответ с детальной информацией по книге
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+            <param name="CoverImagePath">Путь к изображению обложки</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.Category">
+            <summary>Категория книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.CoverImagePath">
+            <summary>Путь к изображению обложки</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookDetailsResponse.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.CreateBookResponse">
+            <summary>
+            Ответ на создание книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.CreateBookResponse.#ctor(System.Guid)">
+            <summary>
+            Ответ на создание книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.CreateBookResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse">
+            <summary>
+            Ответ со списком книг
+            </summary>
+            <param name="Books">Список книг</param>
+            <param name="TotalCount">Общее количество книг</param>
+            <param name="PageNumber">Номер текущей страницы</param>
+            <param name="PageSize">Размер страницы</param>
+            <param name="TotalPages">Общее количество страниц</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.#ctor(System.Collections.Generic.IReadOnlyList{PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse},System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Ответ со списком книг
+            </summary>
+            <param name="Books">Список книг</param>
+            <param name="TotalCount">Общее количество книг</param>
+            <param name="PageNumber">Номер текущей страницы</param>
+            <param name="PageSize">Размер страницы</param>
+            <param name="TotalPages">Общее количество страниц</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.Books">
+            <summary>Список книг</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.TotalCount">
+            <summary>Общее количество книг</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.PageNumber">
+            <summary>Номер текущей страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.PageSize">
+            <summary>Размер страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.GetBooksResponse.TotalPages">
+            <summary>Общее количество страниц</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse">
+            <summary>
+            Элемент списка книг
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.#ctor(System.Guid,System.String,PracticalWork.Library.Contracts.v1.Enums.BookCategory,System.Collections.Generic.IReadOnlyList{System.String},PracticalWork.Library.Contracts.v1.Enums.BookStatus,System.Boolean)">
+            <summary>
+            Элемент списка книг
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.Category">
+            <summary>Категория книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.BookListItemResponse.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Books.Response.UpdateBookResponse">
+            <summary>
+            Ответ на обновление книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Books.Response.UpdateBookResponse.#ctor(System.Guid)">
+            <summary>
+            Ответ на обновление книги
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Books.Response.UpdateBookResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Enums.BookCategory">
+            <summary>
+            Тип книги
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookCategory.ScientificBook">
+            <summary>Научная литература</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookCategory.EducationalBook">
+            <summary>Учебное пособие</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookCategory.FictionBook">
+            <summary>Художественная литература</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Enums.BookIssueStatus">
+            <summary>
+            Состояние книги
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookIssueStatus.Issued">
+            <summary>
+            Выдана
+            </summary>
+            <remarks>Значение по умолчанию</remarks>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookIssueStatus.Returned">
+            <summary>
+            Возвращена
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookIssueStatus.Overdue">
+            <summary>
+            Возвращена с просрочкой
+            </summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Enums.BookStatus">
+            <summary>
+            Статус книги в библиотеке
+            </summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookStatus.Available">
+            <summary>Книга доступна для выдачи</summary>
+            <remarks>Значение по умолчанию</remarks>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookStatus.Borrow">
+            <summary>Книга выдана читателю</summary>
+        </member>
+        <member name="F:PracticalWork.Library.Contracts.v1.Enums.BookStatus.Archived">
+            <summary>Книга переведена в архив</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Request.BorrowBookRequest">
+            <summary>
+            Запрос на выдачу книги читателю
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Request.BorrowBookRequest.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Запрос на выдачу книги читателю
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.BorrowBookRequest.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.BorrowBookRequest.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest">
+            <summary>
+            Запрос на получение списка книг библиотеки
+            </summary>
+            <param name="Category">Фильтр по категории (опционально)</param>
+            <param name="Author">Фильтр по автору (опционально)</param>
+            <param name="PageNumber">Номер страницы (начиная с 1)</param>
+            <param name="PageSize">Размер страницы</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest.#ctor(System.Nullable{PracticalWork.Library.Contracts.v1.Enums.BookCategory},System.String,System.Int32,System.Int32)">
+            <summary>
+            Запрос на получение списка книг библиотеки
+            </summary>
+            <param name="Category">Фильтр по категории (опционально)</param>
+            <param name="Author">Фильтр по автору (опционально)</param>
+            <param name="PageNumber">Номер страницы (начиная с 1)</param>
+            <param name="PageSize">Размер страницы</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest.Category">
+            <summary>Фильтр по категории (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest.Author">
+            <summary>Фильтр по автору (опционально)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest.PageNumber">
+            <summary>Номер страницы (начиная с 1)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.GetLibraryBooksRequest.PageSize">
+            <summary>Размер страницы</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Request.ReturnBookRequest">
+            <summary>
+            Запрос на возврат книги
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Request.ReturnBookRequest.#ctor(System.Guid,System.Guid)">
+            <summary>
+            Запрос на возврат книги
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.ReturnBookRequest.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Request.ReturnBookRequest.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse">
+            <summary>
+            Ответ на выдачу книги читателю
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="BorrowDate">Дата выдачи книги</param>
+            <param name="DueDate">Срок возврата книги</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse.#ctor(System.Guid,System.Guid,System.DateOnly,System.DateOnly)">
+            <summary>
+            Ответ на выдачу книги читателю
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="BorrowDate">Дата выдачи книги</param>
+            <param name="DueDate">Срок возврата книги</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse.BorrowDate">
+            <summary>Дата выдачи книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.BorrowBookResponse.DueDate">
+            <summary>Срок возврата книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse">
+            <summary>
+            Ответ с детальной информацией по книге библиотеки
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+            <param name="CoverImageUrl">URL для доступа к обложке</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.#ctor(System.Guid,System.String,PracticalWork.Library.Contracts.v1.Enums.BookCategory,System.Collections.Generic.IReadOnlyList{System.String},System.String,System.Int32,System.String,PracticalWork.Library.Contracts.v1.Enums.BookStatus,System.Boolean)">
+            <summary>
+            Ответ с детальной информацией по книге библиотеки
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Description">Краткое описание книги</param>
+            <param name="Year">Год издания</param>
+            <param name="CoverImageUrl">URL для доступа к обложке</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Category">
+            <summary>Категория книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Description">
+            <summary>Краткое описание книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Year">
+            <summary>Год издания</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.CoverImageUrl">
+            <summary>URL для доступа к обложке</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBookDetailsResponse.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse">
+            <summary>
+            Ответ со списком книг библиотеки
+            </summary>
+            <param name="Books">Список книг</param>
+            <param name="TotalCount">Общее количество книг</param>
+            <param name="PageNumber">Номер текущей страницы</param>
+            <param name="PageSize">Размер страницы</param>
+            <param name="TotalPages">Общее количество страниц</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.#ctor(System.Collections.Generic.IReadOnlyList{PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse},System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Ответ со списком книг библиотеки
+            </summary>
+            <param name="Books">Список книг</param>
+            <param name="TotalCount">Общее количество книг</param>
+            <param name="PageNumber">Номер текущей страницы</param>
+            <param name="PageSize">Размер страницы</param>
+            <param name="TotalPages">Общее количество страниц</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.Books">
+            <summary>Список книг</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.TotalCount">
+            <summary>Общее количество книг</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.PageNumber">
+            <summary>Номер текущей страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.PageSize">
+            <summary>Размер страницы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.GetLibraryBooksResponse.TotalPages">
+            <summary>Общее количество страниц</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse">
+            <summary>
+            Элемент списка книг библиотеки с информацией о выдаче
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+            <param name="ReaderId">Идентификатор читателя, которому выдана книга (null, если не выдана)</param>
+            <param name="BorrowDate">Дата выдачи книги (null, если не выдана)</param>
+            <param name="DueDate">Срок возврата книги (null, если не выдана)</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.#ctor(System.Guid,System.String,PracticalWork.Library.Contracts.v1.Enums.BookCategory,System.Collections.Generic.IReadOnlyList{System.String},PracticalWork.Library.Contracts.v1.Enums.BookStatus,System.Boolean,System.Nullable{System.Guid},System.Nullable{System.DateOnly},System.Nullable{System.DateOnly})">
+            <summary>
+            Элемент списка книг библиотеки с информацией о выдаче
+            </summary>
+            <param name="Id">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Category">Категория книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="Status">Статус</param>
+            <param name="IsArchived">В архиве</param>
+            <param name="ReaderId">Идентификатор читателя, которому выдана книга (null, если не выдана)</param>
+            <param name="BorrowDate">Дата выдачи книги (null, если не выдана)</param>
+            <param name="DueDate">Срок возврата книги (null, если не выдана)</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.Id">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.Category">
+            <summary>Категория книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.Status">
+            <summary>Статус</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.IsArchived">
+            <summary>В архиве</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.ReaderId">
+            <summary>Идентификатор читателя, которому выдана книга (null, если не выдана)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.BorrowDate">
+            <summary>Дата выдачи книги (null, если не выдана)</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.LibraryBookListItemResponse.DueDate">
+            <summary>Срок возврата книги (null, если не выдана)</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse">
+            <summary>
+            Ответ на возврат книги
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="ReturnDate">Дата возврата книги</param>
+            <param name="WasOverdue">Была ли книга возвращена с просрочкой</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse.#ctor(System.Guid,System.Guid,System.DateOnly,System.Boolean)">
+            <summary>
+            Ответ на возврат книги
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="ReturnDate">Дата возврата книги</param>
+            <param name="WasOverdue">Была ли книга возвращена с просрочкой</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse.ReturnDate">
+            <summary>Дата возврата книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Library.Response.ReturnBookResponse.WasOverdue">
+            <summary>Была ли книга возвращена с просрочкой</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest">
+            <summary>
+            Запрос на создание карточки читателя
+            </summary>
+            <param name="FullName">ФИО читателя</param>
+            <param name="PhoneNumber">Номер телефона</param>
+            <param name="ExpiryDate">Дата окончания действия карточки</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest.#ctor(System.String,System.String,System.DateOnly)">
+            <summary>
+            Запрос на создание карточки читателя
+            </summary>
+            <param name="FullName">ФИО читателя</param>
+            <param name="PhoneNumber">Номер телефона</param>
+            <param name="ExpiryDate">Дата окончания действия карточки</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest.FullName">
+            <summary>ФИО читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest.PhoneNumber">
+            <summary>Номер телефона</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Request.CreateReaderRequest.ExpiryDate">
+            <summary>Дата окончания действия карточки</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Request.ExtendReaderRequest">
+            <summary>
+            Запрос на продление срока действия карточки читателя
+            </summary>
+            <param name="NewExpiryDate">Новая дата окончания действия карточки</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Request.ExtendReaderRequest.#ctor(System.DateOnly)">
+            <summary>
+            Запрос на продление срока действия карточки читателя
+            </summary>
+            <param name="NewExpiryDate">Новая дата окончания действия карточки</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Request.ExtendReaderRequest.NewExpiryDate">
+            <summary>Новая дата окончания действия карточки</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Response.CreateReaderResponse">
+            <summary>
+            Ответ на создание карточки читателя
+            </summary>
+            <param name="Id">Идентификатор читателя</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Response.CreateReaderResponse.#ctor(System.Guid)">
+            <summary>
+            Ответ на создание карточки читателя
+            </summary>
+            <param name="Id">Идентификатор читателя</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.CreateReaderResponse.Id">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Response.ExtendReaderResponse">
+            <summary>
+            Ответ на продление срока действия карточки читателя
+            </summary>
+            <param name="Id">Идентификатор читателя</param>
+            <param name="ExpiryDate">Новая дата окончания действия карточки</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Response.ExtendReaderResponse.#ctor(System.Guid,System.DateOnly)">
+            <summary>
+            Ответ на продление срока действия карточки читателя
+            </summary>
+            <param name="Id">Идентификатор читателя</param>
+            <param name="ExpiryDate">Новая дата окончания действия карточки</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ExtendReaderResponse.Id">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ExtendReaderResponse.ExpiryDate">
+            <summary>Новая дата окончания действия карточки</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse">
+            <summary>
+            Информация о взятой книге читателя
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="BorrowDate">Дата выдачи книги</param>
+            <param name="DueDate">Срок возврата книги</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.#ctor(System.Guid,System.String,System.Collections.Generic.IReadOnlyList{System.String},System.DateOnly,System.DateOnly)">
+            <summary>
+            Информация о взятой книге читателя
+            </summary>
+            <param name="BookId">Идентификатор книги</param>
+            <param name="Title">Название книги</param>
+            <param name="Authors">Авторы</param>
+            <param name="BorrowDate">Дата выдачи книги</param>
+            <param name="DueDate">Срок возврата книги</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.BookId">
+            <summary>Идентификатор книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.Title">
+            <summary>Название книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.Authors">
+            <summary>Авторы</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.BorrowDate">
+            <summary>Дата выдачи книги</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse.DueDate">
+            <summary>Срок возврата книги</summary>
+        </member>
+        <member name="T:PracticalWork.Library.Contracts.v1.Readers.Response.GetReaderBorrowedBooksResponse">
+            <summary>
+            Ответ со списком взятых книг читателя
+            </summary>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="Books">Список взятых книг</param>
+        </member>
+        <member name="M:PracticalWork.Library.Contracts.v1.Readers.Response.GetReaderBorrowedBooksResponse.#ctor(System.Guid,System.Collections.Generic.IReadOnlyList{PracticalWork.Library.Contracts.v1.Readers.Response.ReaderBorrowedBookResponse})">
+            <summary>
+            Ответ со списком взятых книг читателя
+            </summary>
+            <param name="ReaderId">Идентификатор читателя</param>
+            <param name="Books">Список взятых книг</param>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.GetReaderBorrowedBooksResponse.ReaderId">
+            <summary>Идентификатор читателя</summary>
+        </member>
+        <member name="P:PracticalWork.Library.Contracts.v1.Readers.Response.GetReaderBorrowedBooksResponse.Books">
+            <summary>Список взятых книг</summary>
+        </member>
+    </members>
+</doc>

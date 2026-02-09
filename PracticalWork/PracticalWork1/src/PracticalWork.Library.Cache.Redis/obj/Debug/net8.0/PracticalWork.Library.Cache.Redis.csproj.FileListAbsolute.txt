@@ -1,0 +1,63 @@
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.deps.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.AssemblyReference.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.GeneratedMSBuildEditorConfig.editorconfig
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfoInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfo.cs
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.CoreCompileInputs.cache
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.sourcelink.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\Practica.E7CBE3D9.Up2Date
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\refint\PracticalWork.Library.Cache.Redis.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\ref\PracticalWork.Library.Cache.Redis.dll
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.runtimeconfig.json
+C:\documents\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.runtimeconfig.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\Practica.E7CBE3D9.Up2Date
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\refint\PracticalWork.Library.Cache.Redis.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.genruntimeconfig.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\ref\PracticalWork.Library.Cache.Redis.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.runtimeconfig.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\bin\Debug\net8.0\PracticalWork.Library.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\Practica.E7CBE3D9.Up2Date
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\refint\PracticalWork.Library.Cache.Redis.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\PracticalWork.Library.Cache.Redis.genruntimeconfig.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Library.Cache.Redis\obj\Debug\net8.0\ref\PracticalWork.Library.Cache.Redis.dll

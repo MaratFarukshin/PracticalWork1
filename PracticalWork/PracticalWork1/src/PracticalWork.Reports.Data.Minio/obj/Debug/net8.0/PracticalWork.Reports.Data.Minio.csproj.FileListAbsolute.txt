@@ -1,0 +1,57 @@
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.deps.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfo.cs
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.sourcelink.json
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\Practica.E00E0B87.Up2Date
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\bulat\Downloads\Telegram Desktop\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.deps.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.AssemblyReference.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfoInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfo.cs
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.sourcelink.json
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\Practica.E00E0B87.Up2Date
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.Minio.dll
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\bulat\Downloads\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.Minio.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.deps.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\bin\Debug\net8.0\PracticalWork.Reports.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.AssemblyReference.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfoInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.AssemblyInfo.cs
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.csproj.CoreCompileInputs.cache
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.sourcelink.json
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\Practica.E00E0B87.Up2Date
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\refint\PracticalWork.Reports.Data.Minio.dll
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.xml
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\PracticalWork.Reports.Data.Minio.pdb
+C:\Users\Marat\Downloads\PracticalWork\PracticalWork\PracticalWork\PracticalWork1\src\PracticalWork.Reports.Data.Minio\obj\Debug\net8.0\ref\PracticalWork.Reports.Data.Minio.dll
